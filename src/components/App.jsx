@@ -1,9 +1,12 @@
 import React from 'react';
+import Tasklist from './lists/TaskList';
+import Settings from './settings/Settings';
 
 const App = () => {
     return (
       <div>
-        <h1>Hola Mund Final</h1>
+        <Tasklist />
+        {/* <Settings /> */}
       </div>
     );
 };
